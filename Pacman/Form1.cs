@@ -24,7 +24,6 @@ namespace Pacman
             Graphics g = this.CreateGraphics();
             Pen drawpen = new Pen(Color.Red);
             SolidBrush drawbrush = new SolidBrush(Color.Yellow);
-            SolidBrush drawbrush1 = new SolidBrush(Color.Black);
             Font drawFont = new Font("Courier New", 16, FontStyle.Bold);
             g.DrawString("player 1 get ready!",drawFont,drawbrush,10,50);
         }
